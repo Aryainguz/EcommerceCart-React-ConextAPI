@@ -7,19 +7,19 @@ const products = [
     id: 0,
     name: "Nike Air Force 1 '07",
     price: "$130",
-    img: "https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-01.jpg",
+    img: "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e9d41cd4-a2c5-4ca7-a3aa-f4bf597658d0/custom-nike-air-force-1-mid-by-you-shoes.png",
   },
   {
     id: 1,
     name: "Nike Air Max 270",
     price: "$100",
-    img: "https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg",
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4f685abe-510a-4599-bb28-69859836bf88/air-max-pulse-roam-shoes-NSfkP0.png",
   },
   {
     id: 2,
     name: "Nike Air More Uptempo",
     price: "$140",
-    img: "https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-03.jpg",
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5217149f-65cb-497c-9a4f-c98e94ac74c8/air-more-uptempo-shoes-crrfMp.png",
   }
 ]
 
