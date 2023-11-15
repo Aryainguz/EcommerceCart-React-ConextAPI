@@ -65,20 +65,6 @@ const ProductCard = ({id,img,name,price, increase, reduce, cart})=>{
         </div>
         <div className="flex items-center space-x-4">
           <p className="text-sm">{price}</p>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth="1.5"
-            stroke="currentColor"
-            className="h-5 w-5 cursor-pointer duration-150 hover:text-red-500"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
         </div>
       </div>
     </div>
@@ -152,7 +138,9 @@ const [sum, setSum] = useState(0)
             </div>
           </div>
           <button className="mt-6 w-full rounded-md bg-blue-500 py-1.5 font-medium text-blue-50 hover:bg-blue-600"
-          onClick={()=>alert("Thank you for shopping with us")}
+          onClick={()=>
+            {sum!=0?alert("Thank you for shopping with us\n Your Bill : "+ (parseInt(sum)+4.99)+" USD"):alert("Your Cart Is Empty!")}
+            }
           >
             Check out
           </button>
