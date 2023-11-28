@@ -65,6 +65,7 @@ const ProductCard = ({id,img,name,price, increase, reduce, cart})=>{
         </div>
         <div className="flex items-center space-x-4">
           <p className="text-sm">{price}</p>
+          <h1>Just trying</h1>
         </div>
       </div>
     </div>
